@@ -13,14 +13,17 @@ Run through the guide at [RNN guide](https://www.tensorflow.org/guide/keras/rnn)
 
 1.   Give 1-2 sentence description of keras.
 
-TODO
+Keras is open source python code that serves as an interface for TensorFlow. The API, as per their website, states that it is for human use, making artifical neural networks more simple and easier to understand.
 
 2.   Give a short explanation of the following:
 
 - `Embedding`
+
+Embedding in this instance takes an input of a specificed sized and reshapes it into a specificed dimension.
+
 -  `Dropout` 
 
-TODO
+Dropout is used to help aide in reducing the overfitting of the neural network which occurs when a model is over-trained on a data set. Since this is a sequential process, the dropout rate will regulate it by dropping the hidden state.
 
 ### Part 2: Unidirectional vs Bidirectional
 
@@ -30,5 +33,3 @@ TODO
 ### Part 3: Add code
 
 1.   Include the code from "Recurrent Neural Networks (RNN) with Keras" guide that you ran (must show output) as a Google Colab notebook in your challenge 5 repository.
-
-TODO
